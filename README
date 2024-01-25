@@ -1,0 +1,23 @@
+This is a python program utilizing logistic regression model to predict whether a tumor is malignant or benign. Logistic regression algorithm is a binary classifier that learns a linear decision boundary. 
+The data are split into two subsets, a training set in file named train_cancer.csv, and a test set in file named test_cancer_pub.csv
+
+Below is the attributes in the dataset.
+attribute name | type | values
+clump thickness: numerical. 1~10
+uniformity of cell size: numerical. 1~10
+uniformity of cell shape: numerical. 1~10
+marginal adhesion: numerical. 1~10
+single epithelial cell size: numerical. 1~10
+bland chromatin: numerical. 1~10
+normal nucleoli: numerical. 1~10
+mitoses: numerical. 1~10
+tumor: numerical. Either 0 (represents benign) or 1 (represents malignant)
+
+The program will read two csv files named: train_cancer.csv, test_cancer_pub.csv and generate an output file named: test_predicted.csv
+
+Install the numpy and matplotlib packages by using the below command
+pip install numpy
+pip install matplotlib
+
+Use the below command to run the program
+python logreg.py
